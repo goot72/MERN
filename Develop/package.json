@@ -17,6 +17,10 @@
     "concurrently": "^8.2.0"
   },
   "dependencies": {
-    "express": "^4.19.2"
+    "apollo-server-express": "^3.13.0",
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1"
   }
 }
