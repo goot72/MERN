@@ -35,3 +35,6 @@ db.once('open', () => {
   console.log(`GraphQL server ready at http://localhost:${PORT}${server.graphqlPath}`);
 });
 };
+
+
+startServer();
