@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 
 async function connectToDatabase() {
   try {
-    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:3001/googlebooks');
+    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/googlebooks');
     console.log('Successfully connected to the database');
   } catch (error) {
     console.error('Error connecting to the database', error);
